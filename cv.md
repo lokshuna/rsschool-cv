@@ -4,7 +4,8 @@
 ## **Contacts:**
 
 ### Number:  *+380 63 267 21 76*
-### 
+###  [GitHub](https://github.com/lokshuna)
+### Gmail: *lilivolos2005@gmail.com*
 
 ##  **Information:** 
 
