@@ -12,12 +12,7 @@
 
 ## Code examples:
 
-```С++
-#include <iostream>
-#include <fstream>
-#include "tree.h"
-
-
+###```С++
 int main() {
 
 	ifstream fin ("trees.txt");
@@ -40,8 +35,7 @@ int main() {
 	cout << "The most productive tree: " << fecundity(fruits, n);
 	fruitTree* newTree = treeArray(fruits, n, mostProductiveTree);
 	fillFile(newTree, mostProductiveTree, "finalTrees.txt");
-   ```
-
 
 	return 0;
 }
+```
