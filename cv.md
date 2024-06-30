@@ -1,16 +1,22 @@
 # **Liliia Voloshchuk**
 ### *Student*
 
-## Information:
+## **Contacts:**
+
+### Number:  *+380 63 267 21 76*
+### 
+
+##  **Information:** 
+
 ### My goal is to learn how to program, master the skills of working with website and application development, and raise my level of knowledge to the proper level to get my dream job. My strengths include a fast learning curve, quick perception and processing of information, dedication, and good communication skills. I am eager to learn everything related to website development and programming languages
 
-## Skills:
+## **Skills:**
 
 ### *C++
 ### *C#
 ### *Python
 
-## Code examples:
+## **Code examples:**
 
  ``` С++
  int main() {
@@ -39,3 +45,17 @@
 return 0;
  }
  ```
+## **Work experience:**
+
+### **Work on academic assignments at university** 
+### *2022-now*
+
+## **Education:** 
+
+### **Ivan Franko National University of Lviv**
+### *2022-now*
+
+## **English level:**
+
+### B2 (university final test)
+
