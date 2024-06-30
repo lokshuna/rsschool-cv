@@ -6,9 +6,9 @@
 
 ## Skills:
 
-### * C++
-### * C#
-### * Python
+### *C++
+### *C#
+### *Python
 
 ## Code examples:
 
