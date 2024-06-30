@@ -13,7 +13,6 @@
 ## Code examples:
 
 ### ``` С++
-
 ### int main() {
 
 ###	ifstream fin ("trees.txt");
@@ -39,5 +38,4 @@
 
 ###	return 0;
 ### }
-
 ### ```
