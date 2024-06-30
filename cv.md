@@ -12,9 +12,9 @@
 
 ## Code examples:
 
-### ``` С++
+###  С++
 
-### int main() {
+### ``` int main() {
 
 ###	ifstream fin ("trees.txt");
 ###	size_t n; fin >> n;
