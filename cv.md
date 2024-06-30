@@ -6,36 +6,38 @@
 
 ## Skills:
 
-### *C++
-### *C#
-### *Python
+### * C++
+### * C#
+### * Python
 
 ## Code examples:
 
-###```С++
-int main() {
+### ``` С++
 
-	ifstream fin ("trees.txt");
-	size_t n; fin >> n;
-	int mostProductiveTree = 0;
-	fruitTree* fruits = new fruitTree[n];
-	for (size_t i = 0; i < n; ++i) {
-		fin >> fruits[i];
-	}
-	fin.close();
-	cout << "All trees: ";
-	printArray(fruits, n);
-	for (size_t i = 0; i < n; ++i) {
-		fruits[i].growing();
-	}
-	cout << "+1 year"; 
-	printArray(fruits, n);
+### int main() {
 
-	cout << "Highest tree: " << highestTree(fruits, n);
-	cout << "The most productive tree: " << fecundity(fruits, n);
-	fruitTree* newTree = treeArray(fruits, n, mostProductiveTree);
-	fillFile(newTree, mostProductiveTree, "finalTrees.txt");
+###	ifstream fin ("trees.txt");
+###	size_t n; fin >> n;
+###	int mostProductiveTree = 0;
+###	fruitTree* fruits = new fruitTree[n];
+###	for (size_t i = 0; i < n; ++i) {
+###		fin >> fruits[i];
+###	}
+###	fin.close();
+###	cout << "All trees: ";
+###	printArray(fruits, n);
+###	for (size_t i = 0; i < n; ++i) {
+###		fruits[i].growing();
+###	}
+###	cout << "+1 year"; 
+###	printArray(fruits, n);
 
-	return 0;
-}
-```
+###	cout << "Highest tree: " << highestTree(fruits, n);
+###	cout << "The most productive tree: " << fecundity(fruits, n);
+###	fruitTree* newTree = treeArray(fruits, n, mostProductiveTree);
+###	fillFile(newTree, mostProductiveTree, "finalTrees.txt");
+
+###	return 0;
+### }
+
+### ```
