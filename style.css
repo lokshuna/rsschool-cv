@@ -27,8 +27,13 @@
   width: 1158px;
   margin-top: 32px;
   margin-left: 21px;
+  position: relative;
 }
 
 .photo{
-  
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.1);
 }
