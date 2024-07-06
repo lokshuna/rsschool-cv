@@ -1,6 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
 :root{
   --dark-green: rgba(217, 217, 217, 1);
-} 
+}
+
+ol{
+  list-style-type:  none;
+}
 
 .cv-background{
   background-color: rgba(245, 247, 250, 1);
@@ -28,6 +34,7 @@
   margin-top: 32px;
   margin-left: 21px;
   position: relative;
+  font-family: inter;
 }
 
 .photo{
@@ -37,3 +44,58 @@
   transform: translate(-50%, -50%);
   box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+.name{
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 27%;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  text-shadow:  0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.name h1{
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.name h2{
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.contacts{
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 71%;
+  left: 434px;
+  transform: translate(-50%, -50%);
+  font-weight: 100;
+}
+
+a {
+  text-decoration:none;
+  color: #000000;
+}
+
+ li img{
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.contacts a{
+  vertical-align: auto;
+}
+
+
+
+
+
+
