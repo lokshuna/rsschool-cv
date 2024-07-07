@@ -3,9 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
 </head>
 <body>
+  <div class="cv-background"> 
+    <div class="cv-size-background">
+        <div class="left-block">
+            <div class="information">
+                <div class="skills" id="skills">
+                    <div class="skills-label">
+                        <h2>Skills:</h2>
+                    </div>
+                    <div class="skills-list">
+                        <ol>
+                            <li>
+                                <img src="./images/c-.png" alt="C-plus-icon" width="50" height="50">
+                                <p>C++</p>
+                            </li>
+                            <li>
+                                <img src="./images/c-sharp-c-icon-912x1024-j3yidw37.png" alt="c-sharp-icon" width="50" height="50">
+                                <p>C#</p>
+                            </li>
+                            <li>
+                                <img src="./images/Python-Emblem.png" alt="Python-Emblem" width="50" height="50">
+                                <p>Python</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <hr class="line">
+                </div>
+                <div class="education" id="education">
+                    <h2>Education:</h2>
+                    <h3>Ivan Franko 
+                        National University 
+                        of Lviv</h3>
+                    <h4>Applied mathematics and informatics</h4>
+                </div>
+                <hr class="line">
+                <div class="languages" id="languages">
+                    <h2>Languages:</h2>
+                    <ol>
+                        <li>
+                            <img src="./images/Flag_of_the_United_Kingdom.png" alt="UK flag" width="50" height="25">
+                            <p>English B1-B2</p>
+                        </li>
+                        <li>
+                            <img src="./images/Flag_of_Ukraine.png" alt="Ukraine flag" width="50" height="33">
+                            <p>Ukrainian (native)</p>
+                        </li>
+                        <li>
+                            <img src="./images/Flag_of_Russia.png" alt="Russia flag" width="50" height="33">
+                            <p>Russian C1</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="about-me-section">
+            <div class="name">
+                <h1>Liliia Voloshcuk</h1>
+                <h2>Junior Frontend Developer</h2>
+            </div>
+            <div class="photo">
+                <img src="./images/photo_2024-07-05_01-57-39.jpg" alt="My Portret" width="242" height="290">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ol>
+                        <li><a href="#about-me-text">About me</a></li>
+                        <li><a href="#expirience">Expirience</a></li>
+                        <li><a href="#code-example">Code example</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="languages">Languages</a></li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="contacts">
+                <ol>
+                    <li>
+                        <img src="./images/58485698e0bb315b0f7675a8.png" alt="Email icon" width="45" height="45">
+                        <a href="mailto:lilivolos2005@gmail.com">lilivolos2005@gmail.com</a>
+                    </li>
+                    <li>
+                        <img src="./images/github-mark.png" alt="GitHub icon" width="45" height="45">
+                        <a href="https://github.com/lokshuna">https://github.com/lokshuna</a>
+                    </li>
+                    <li>
+                        <img src="./images/phone-call_455705.png" alt="Phone icon" width="45" height="45">
+                        <a href="tel:+380632672176">+380 63 267 2176</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="main-block">
+            <div class="about-me-text" id="about-me-text">
+                <h2>About me:</h2>
+                <main>I started learning programming at the age of 17 with HTML and CSS, at 18 I went to university where I studied other programming languages such as C++, C# and Python, and I continue to learn programming now, at the age of 19. I plan to master front-end development, for which I am taking a course. My goal is to learn how to program, master the skills of working with website and application development, and raise my level of knowledge to the proper level to get my dream job. My strengths include a fast learning curve, quick perception and processing of information, dedication, and good communication skills. I am eager to learn everything related to website development and programming languages
+                </main>
+            </div>
+            <div class="expirience" id="expirience">
+                <h2>Work experience:</h2>
+                <a href="https://lokshuna.github.io/rsschool-cv/cv">CV for RSschool courses</a>
+            </div>
+            <div class="code-example" id="code-example">
+                <h2>Code example:</h2>
+                <pre>
+                    <code>
+    int main() {
+
+        ifstream fin ("trees.txt");
+        size_t n; fin >> n;
+        int mostProductiveTree = 0;
+        fruitTree* fruits = new fruitTree[n];
+        for (size_t i = 0; i &lt; n; ++i) {
+        fin >> fruits[i];
+        }
+        fin.close();
+        cout &lt;&lt; "All trees: ";
+        printArray(fruits, n);
+        for (size_t i = 0; i &lt; n; ++i) {
+        fruits[i].growing();
+        }
+        cout &lt;&lt; "+1 year"; 
+        printArray(fruits, n);
+                        
+        cout &lt;&lt; "Highest tree: " &lt;&lt; highestTree(fruits, n);
+        cout &lt;&lt; "The most productive tree: " &lt;&lt; fecundity(fruits, n);
+        fruitTree* newTree = treeArray(fruits, n, mostProductiveTree);
+        fillFile(newTree, mostProductiveTree, "finalTrees.txt");
     
+        return 0;
+    }
+                    </code>
+                  </pre>
+            </div>
+        </div>
+        <footer>
+            <a href="https://github.com/lokshuna">
+                <img src="./images/github-mark.png" alt="Github Icon" width="45" height="45">
+                Visit my GitHub
+            </a>
+            <h4>©2024</h4>
+            <a href="https://rs.school/courses/javascript-ru"><img src="./images/rsschool-logo.png" alt="rsschool logo" height="45">
+            </a>
+
+        </footer>
+    </div>
+  </div>
 </body>
 </html>
