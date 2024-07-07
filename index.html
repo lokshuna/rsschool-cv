@@ -12,7 +12,7 @@
     <div class="cv-size-background">
         <div class="left-block">
             <div class="information">
-                <div class="skills">
+                <div class="skills" id="skills">
                     <div class="skills-label">
                         <h2>Skills:</h2>
                     </div>
@@ -34,7 +34,7 @@
                     </div>
                     <hr class="line">
                 </div>
-                <div class="education">
+                <div class="education" id="education">
                     <h2>Education:</h2>
                     <h3>Ivan Franko 
                         National University 
@@ -42,7 +42,7 @@
                     <h4>Applied mathematics and informatics</h4>
                 </div>
                 <hr class="line">
-                <div class="languages">
+                <div class="languages" id="languages">
                     <h2>Languages:</h2>
                     <ol>
                         <li>
@@ -69,6 +69,18 @@
             <div class="photo">
                 <img src="./images/photo_2024-07-05_01-57-39.jpg" alt="My Portret" width="242" height="290">
             </div>
+            <div class="menu">
+                <nav>
+                    <ol>
+                        <li><a href="#about-me-text">About me</a></li>
+                        <li><a href="#expirience">Expirience</a></li>
+                        <li><a href="#code-example">Code example</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="languages">Languages</a></li>
+                    </ol>
+                </nav>
+            </div>
             <div class="contacts">
                 <ol>
                     <li>
@@ -86,6 +98,59 @@
                 </ol>
             </div>
         </div>
+        <div class="main-block">
+            <div class="about-me-text" id="about-me-text">
+                <h2>About me:</h2>
+                <main>I started learning programming at the age of 17 with HTML and CSS, at 18 I went to university where I studied other programming languages such as C++, C# and Python, and I continue to learn programming now, at the age of 19. I plan to master front-end development, for which I am taking a course. My goal is to learn how to program, master the skills of working with website and application development, and raise my level of knowledge to the proper level to get my dream job. My strengths include a fast learning curve, quick perception and processing of information, dedication, and good communication skills. I am eager to learn everything related to website development and programming languages
+                </main>
+            </div>
+            <div class="expirience" id="expirience">
+                <h2>Work experience:</h2>
+                <a href="https://lokshuna.github.io/rsschool-cv/cv">CV for RSschool courses</a>
+            </div>
+            <div class="code-example" id="code-example">
+                <h2>Code example:</h2>
+                <pre>
+                    <code>
+    int main() {
+
+        ifstream fin ("trees.txt");
+        size_t n; fin >> n;
+        int mostProductiveTree = 0;
+        fruitTree* fruits = new fruitTree[n];
+        for (size_t i = 0; i &lt; n; ++i) {
+        fin >> fruits[i];
+        }
+        fin.close();
+        cout &lt;&lt; "All trees: ";
+        printArray(fruits, n);
+        for (size_t i = 0; i &lt; n; ++i) {
+        fruits[i].growing();
+        }
+        cout &lt;&lt; "+1 year"; 
+        printArray(fruits, n);
+                        
+        cout &lt;&lt; "Highest tree: " &lt;&lt; highestTree(fruits, n);
+        cout &lt;&lt; "The most productive tree: " &lt;&lt; fecundity(fruits, n);
+        fruitTree* newTree = treeArray(fruits, n, mostProductiveTree);
+        fillFile(newTree, mostProductiveTree, "finalTrees.txt");
+    
+        return 0;
+    }
+                    </code>
+                  </pre>
+            </div>
+        </div>
+        <footer>
+            <a href="https://github.com/lokshuna">
+                <img src="./images/github-mark.png" alt="Github Icon" width="45" height="45">
+                Visit my GitHub
+            </a>
+            <h4>©2024</h4>
+            <a href="https://rs.school/courses/javascript-ru"><img src="./images/rsschool-logo.png" alt="rsschool logo" height="45">
+            </a>
+
+        </footer>
     </div>
   </div>
 </body>
