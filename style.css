@@ -22,9 +22,6 @@ ol{
   width: 1200px;
   margin: auto;
   box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-self: center;
-  justify-self: center;
 }
 
 .about-me-section{
@@ -81,7 +78,7 @@ h1, h2 {
 
 a {
   text-decoration:none;
-  color: #000000;
+  color: rgba(0, 0, 0, 1);
 }
 
  li img{
@@ -93,6 +90,109 @@ a {
 .contacts a{
   vertical-align: auto;
 }
+
+.left-block{
+  background-color: var(--dark-green);
+  width: 271px;
+  height: 820px;
+  display: flex;
+  margin-top: 387px;
+  margin-left: 21px ;
+  position: absolute;
+}
+
+.skills-list {
+  font-family: inter;
+
+}
+.skills-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: -4px;
+  font-weight: 400;
+  text-align: left;
+  font-size: 25px;
+}
+.skills-list img {
+  margin-right: 22px;
+  margin-left: -10px;
+}
+
+.skills-label{
+  margin: auto;
+  margin-top: 25px;
+  font-family: inter;
+  font-size: 28px;
+}
+
+hr{
+  margin-left: 17.5px;
+}
+
+.education{
+  margin: auto;
+  text-align: center;
+}
+
+.education h2{
+  margin: auto;
+  margin-top: 25px;
+  font-family: inter;
+  font-size: 38px;
+}
+
+.education h3{
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.education h4{
+  font-family: inter;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.languages{
+  font-family: inter;
+}
+
+.languages h2{
+  margin: auto;
+  margin-top: 25px;
+  font-size: 38px;
+}
+
+.languages ol li{
+  list-style-type: none;
+  margin: -10px;
+}
+
+.languages li{
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+}
+
+.languages img{
+  margin-right: 22px;
+  margin-left: -10px;
+}
+
+.line{
+  width: 236px;
+  height: 0px;
+  border-color: black;
+}
+
+
+
+
+
+
 
 
 
